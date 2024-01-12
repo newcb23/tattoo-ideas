@@ -281,7 +281,7 @@ export default function Home() {
               AI Tattoo Generator
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-300 max-w-2xl text-center mx-auto p-4">
-              AI Tattoo Generator: Revolutionizing body art with tailored, digital designs that transform your ink dreams into reality.
+              Discover the art of the future with AI Tattoo Generator, your personal artist for digitally crafted, bespoke tattoo designs.
             </p>
             <div className="mt-8 flex items-center justify-center">
               <div className="w-full max-w-lg items-center pt-8 pb-2 px-4">
