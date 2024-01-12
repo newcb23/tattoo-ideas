@@ -266,7 +266,7 @@ export default function Home() {
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
-            <span className="sr-only">Tattoo Ideas</span>
+            <span className="sr-only">AI Tattoo Generator</span>
             <Logo className="inline-block h-6 w-auto" />
           </div>
         </nav>
@@ -278,10 +278,10 @@ export default function Home() {
 
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl leading-16">
-              Tattoo Ideas by A.I
+              AI Tattoo Generator
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-300 max-w-2xl text-center mx-auto p-4">
-              Crafting unique tattoos with a digital touch. Dive into a world where AI meets ink, bringing you cutting-edge designs tailored just for you.
+              AI Tattoo Generator: Revolutionizing body art with tailored, digital designs that transform your ink dreams into reality.
             </p>
             <div className="mt-8 flex items-center justify-center">
               <div className="w-full max-w-lg items-center pt-8 pb-2 px-4">
