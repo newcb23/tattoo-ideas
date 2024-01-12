@@ -20,7 +20,7 @@ const font = Proza_Libre({
 // Setting up the metadata
 export const metadata: Metadata = {
   title: 'AI Tattoo Generator',
-  description: 'Introducing Tattoo Ideas: the AI-powered tattoo design app. Transform your vision into unique ink designs with cutting-edge technology. Browse, customize, and find the perfect tattoo that\'s as individual as you. Experience the future of tattoo creativity today.',
+  description: 'Discover the art of the future with AI Tattoo Generator, your personal artist for digitally crafted, bespoke tattoo designs.',
 }
 
 // Defining the RootLayout function
