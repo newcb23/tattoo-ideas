@@ -297,54 +297,6 @@ export default function Home() {
                 </p>}
 
               </div>
-
-            </div>
-            {prediction && prediction.status !== "succeeded" &&
-
-              <div className="mt-16 sm:mt-20">
-                <div className="-my-4 flex flex-wrap  justify-center gap-3 sm:gap4 overflow-hidden py-4 sm:gap-8">
-                  <Skeleton className="relative aspect-[9/10] w-44 flex items-center justify-center h-full overflow-hidden rounded-xl border-2 border-white sm:w-72 sm:rounded-2xl rotate-0 sm:rotate-2 sm:hover:rotate-0" >
-                    <Progress value={progress} className='w-full h-full rounded-none' />
-                  </Skeleton>
-                  <Skeleton className="relative aspect-[9/10] w-44 flex items-center justify-center h-full overflow-hidden rounded-xl border-2 border-white sm:w-72 sm:rounded-2xl rotate-0 sm:-rotate-2 sm:hover:rotate-0" >
-                    <Progress value={progress} className='w-full h-full rounded-none' />
-                  </Skeleton>
-                  <Skeleton className="relative aspect-[9/10] w-44 flex items-center justify-center h-full overflow-hidden rounded-xl border-2 border-white sm:w-72 sm:rounded-2xl rotate-0 sm:rotate-2 sm:hover:rotate-0" >
-                    <Progress value={progress} className='w-full h-full rounded-none' />
-                  </Skeleton>
-                  <Skeleton className="relative aspect-[9/10] w-44 flex items-center justify-center h-full overflow-hidden rounded-xl border-2 border-white sm:w-72 sm:rounded-2xl rotate-0 sm:rotate-2 sm:hover:rotate-0" >
-                    <Progress value={progress} className='w-full h-full rounded-none' />
-                  </Skeleton>
-
-                </div>
-              </div>
-
-            }
-
-
-            {prediction && prediction.output &&
-              <div className="mt-16 sm:mt-20">
-                <div className="-my-4 flex flex-wrap  justify-center gap-3 sm:gap4 overflow-hidden py-4 sm:gap-8">
-                  <ImageComponent src={prediction.output[prediction.output.length - 1]} pos='rotate-2' title='1' />
-                  <ImageComponent src={prediction.output[prediction.output.length - 2]} pos='-rotate-2' title='2' />
-                  <ImageComponent src={prediction.output[prediction.output.length - 3]} pos='rotate-2' title='3' />
-                  <ImageComponent src={prediction.output[prediction.output.length - 4]} pos='rotate-2' title='4' />
-                </div>
-              </div>
-            }
-
-            {!prediction &&
-              <div className="mt-16 sm:mt-20">
-                <div className="-my-4 flex flex-wrap  justify-center gap-3 sm:gap4 overflow-hidden py-4 sm:gap-8">
-                  <ImageComponent src='/images/dog.webp' pos='rotate-2' title='1' prompt='A golden retriever portrait as a tattoo in the arm' />
-                  <ImageComponent src='/images/panda.webp' pos='-rotate-2' title='2' prompt='Panda on the arm' />
-                  <ImageComponent src='/images/tiger.webp' pos='rotate-2' title='3' prompt='Tiger on the arm' />
-                  <ImageComponent src='/images/samurai.webp' pos='rotate-2' title='4' prompt='Samurai on back' />
-                </div>
-              </div>
-            }
-          </div>
-        </div>
 <h1 class="text-4xl font-bold text-center mb-6">AI Tattoo Generator: A New Way to Design and Express Yourself Through Tattoos</h1>
   <p class="text-gray-700 text-lg mb-4">Tattoo art has evolved remarkably over the years. From ancient tribal symbols to modern graphic designs, the journey has been long and diverse. Today, we're witnessing a new chapter in this evolution: the rise of AI in tattoo design. AI tattoo generators are changing how we think about and create tattoos.</p>
   <p class="text-gray-700 text-lg mb-4">They blend technology with art, offering a fresh perspective on personal expression. These generators use advanced algorithms to turn ideas into visual masterpieces. This shift is not just a trend. It's a significant leap in the tattooing process.</p>
@@ -400,6 +352,54 @@ export default function Home() {
   <p class="text-gray-700 text-lg mb-4">In tattoos, AI tattoo generators are a big step forward. They offer a new way to think about and create tattoos. With these tools, you can make designs that are indeed yours. They help you show who you are through ink. It's not just about following trends. It's about making tattoos that mean something to you.</p>
   <p class="text-gray-700 text-lg mb-4">The future of tattooing is exciting. Technology and personal style are coming together. This means more choices and better ways to express yourself.</p>
   <p class="text-gray-700 text-lg mb-4">Whether you're a first-timer or a tattoo enthusiast, AI tattoo generators open up a world of possibilities. Your next tattoo could be just a few clicks away. Remember, it's your story. Tell it in your way, with a design that's as unique as you are.</p>
+            </div>
+            {prediction && prediction.status !== "succeeded" &&
+
+              <div className="mt-16 sm:mt-20">
+                <div className="-my-4 flex flex-wrap  justify-center gap-3 sm:gap4 overflow-hidden py-4 sm:gap-8">
+                  <Skeleton className="relative aspect-[9/10] w-44 flex items-center justify-center h-full overflow-hidden rounded-xl border-2 border-white sm:w-72 sm:rounded-2xl rotate-0 sm:rotate-2 sm:hover:rotate-0" >
+                    <Progress value={progress} className='w-full h-full rounded-none' />
+                  </Skeleton>
+                  <Skeleton className="relative aspect-[9/10] w-44 flex items-center justify-center h-full overflow-hidden rounded-xl border-2 border-white sm:w-72 sm:rounded-2xl rotate-0 sm:-rotate-2 sm:hover:rotate-0" >
+                    <Progress value={progress} className='w-full h-full rounded-none' />
+                  </Skeleton>
+                  <Skeleton className="relative aspect-[9/10] w-44 flex items-center justify-center h-full overflow-hidden rounded-xl border-2 border-white sm:w-72 sm:rounded-2xl rotate-0 sm:rotate-2 sm:hover:rotate-0" >
+                    <Progress value={progress} className='w-full h-full rounded-none' />
+                  </Skeleton>
+                  <Skeleton className="relative aspect-[9/10] w-44 flex items-center justify-center h-full overflow-hidden rounded-xl border-2 border-white sm:w-72 sm:rounded-2xl rotate-0 sm:rotate-2 sm:hover:rotate-0" >
+                    <Progress value={progress} className='w-full h-full rounded-none' />
+                  </Skeleton>
+
+                </div>
+              </div>
+
+            }
+
+
+            {prediction && prediction.output &&
+              <div className="mt-16 sm:mt-20">
+                <div className="-my-4 flex flex-wrap  justify-center gap-3 sm:gap4 overflow-hidden py-4 sm:gap-8">
+                  <ImageComponent src={prediction.output[prediction.output.length - 1]} pos='rotate-2' title='1' />
+                  <ImageComponent src={prediction.output[prediction.output.length - 2]} pos='-rotate-2' title='2' />
+                  <ImageComponent src={prediction.output[prediction.output.length - 3]} pos='rotate-2' title='3' />
+                  <ImageComponent src={prediction.output[prediction.output.length - 4]} pos='rotate-2' title='4' />
+                </div>
+              </div>
+            }
+
+            {!prediction &&
+              <div className="mt-16 sm:mt-20">
+                <div className="-my-4 flex flex-wrap  justify-center gap-3 sm:gap4 overflow-hidden py-4 sm:gap-8">
+                  <ImageComponent src='/images/dog.webp' pos='rotate-2' title='1' prompt='A golden retriever portrait as a tattoo in the arm' />
+                  <ImageComponent src='/images/panda.webp' pos='-rotate-2' title='2' prompt='Panda on the arm' />
+                  <ImageComponent src='/images/tiger.webp' pos='rotate-2' title='3' prompt='Tiger on the arm' />
+                  <ImageComponent src='/images/samurai.webp' pos='rotate-2' title='4' prompt='Samurai on back' />
+                </div>
+              </div>
+            }
+          </div>
+        </div>
+
       </main>
       <footer>
         <div className="mx-auto border-t border-gray-400/10 max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
