@@ -345,6 +345,7 @@ export default function Home() {
             }
           </div>
         </div>
+        <div className="mx-auto px-4">
   <h1 className="text-4xl font-bold text-center mb-6">AI Tattoo Generator: A New Way to Design and Express Yourself Through Tattoos</h1>
   <p className="text-gray-700 text-lg mb-4">Tattoo art has evolved remarkably over the years. From ancient tribal symbols to modern graphic designs, the journey has been long and diverse. Today, we're witnessing a new chapter in this evolution: the rise of AI in tattoo design. AI tattoo generators are changing how we think about and create tattoos.</p>
   <p className="text-gray-700 text-lg mb-4">They blend technology with art, offering a fresh perspective on personal expression. These generators use advanced algorithms to turn ideas into visual masterpieces. This shift is not just a trend. It's a significant leap in the tattooing process.</p>
@@ -400,7 +401,8 @@ export default function Home() {
   <p className="text-gray-700 text-lg mb-4">In tattoos, AI tattoo generators are a big step forward. They offer a new way to think about and create tattoos. With these tools, you can make designs that are indeed yours. They help you show who you are through ink. It's not just about following trends. It's about making tattoos that mean something to you.</p>
   <p className="text-gray-700 text-lg mb-4">The future of tattooing is exciting. Technology and personal style are coming together. This means more choices and better ways to express yourself.</p>
   <p className="text-gray-700 text-lg mb-4">Whether you're a first-timer or a tattoo enthusiast, AI tattoo generators open up a world of possibilities. Your next tattoo could be just a few clicks away. Remember, it's your story. Tell it in your way, with a design that's as unique as you are.</p>
-      </main>
+     </div>
+        </main>
       <footer>
         <div className="mx-auto border-t border-gray-400/10 max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
           <div className="flex justify-center space-x-6 md:order-2">
